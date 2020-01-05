@@ -18,16 +18,19 @@ body {
     alignement du texte: centré
 */
 header {
-
+ background-color: black;
+ text-align: center;
+ margin: 50px;
+ padding: 10px;
+ radius rounded corners: 20px;
 }
 
 /* Couleur du texte: Blanc */
 h1 {
-
+color: white
 }
 
 /* Style de la classe "choix"
-
 */
 _____ {
   float: left;
@@ -53,12 +56,20 @@ _____ {
     couleur de fond: noir
 */
 .resultat {
-
+ text align: center;
+ radius rounded corners: 20px;
+ background-color: black;
+ floating: left;
+ div {
+ width: 100%;
+ padding: 10px;
+ margin: 0.5%;
+ }
 }
 
 /* Clear floats after the columns */
 .section::after {
-  content: "";
+  content: "clear";
   display: table;
   clear: both;
 }
@@ -73,6 +84,17 @@ _____ {
     coins arrondis de rayon: 20px
     couleur de fond: noir
 */
+.resultat {
+  text align: center;
+  radius rounded corners: 20px;
+  background-color: black;
+  floating: left;
+  div {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5%;
+  }
+ }
 .button {
   background-color: #007F00;
   border: none;
@@ -90,19 +112,19 @@ _____ {
     couleur de fond : #bbb
 */
 #identity {
-
+ color-background: #bbb
 }
 
 /* Style de l'élément d'ID "identity"
     couleur de fond : #bbb
 */
 #classe {
-
+color-background: #bbb
 }
 
 /* Style de l'élément d'ID "identity"
     couleur de fond : #ccc
 */
 #speciality {
-
+color-background: #ccc
 }
